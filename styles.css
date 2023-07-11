@@ -1,0 +1,531 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the navigation */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Styles for the hero section */
+  .hero {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #f2f2f2;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Styles for the featured products section */
+  .featured-products {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .featured-products h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 31px;
+  }
+  
+  .product {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .bttn {
+    border: 0px;
+    background-color: #2b2626;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 2px;
+    cursor: pointer;
+  }
+  
+
+  .bttn:hover {
+    background-color: #000000
+  }
+  
+ 
+   /* Add advanced hover effect to nav buttons */
+   .nav-button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fffefe;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+
+  .nav-button:hover {
+    color: rgb(0, 0, 0);
+  }
+
+  /* Add styles for the footer section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .shop-name {
+    font-family: "Playfair Display", serif;
+    font-size: 30px; /* Example: 24 pixels font size */
+    font-weight: bold; /* Example: bold font weight */
+    color: #ffffff; /* Example: dark gray color */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    
+  }
+  
+  .contact-info,
+  .shop-info,
+  .social-media {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+  }
+
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icons li {
+    margin: 2px;
+  }
+
+  .social-icons li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Center the shop name and address */
+  .shop-info {
+    text-align: center;
+  }
+
+  body.abts{
+    background-color: #f5f5f5;
+  }
+     /* Additional CSS specific to the about page */
+     .about {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 80px;
+      background-color: #f2f2f2;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+  }
+
+  .about h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+      text-align: center;
+  }
+
+  .about p {
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+  }
+
+  .contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .success-message {
+    text-align: center;
+    margin-bottom: 30px;
+    color: green;
+  }
+
+  .hide {
+    display: none;
+  }
+
+
+
+      .message-box {
+        width: 100%;
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 4px;
+    }
+    
+    .message-box textarea {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+        padding: 10px;
+        resize: vertical;
+    }
+    
+    .message-box button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .message-box button:hover {
+        background-color: #45a049;
+    }
+    
+
+    @media screen and (max-width: 767px) {
+  /* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the navigation */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: -2px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  nav ul li {
+   margin-left: -30px;
+   margin-bottom: -15px;
+   
+
+   
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Styles for the hero section */
+  .hero {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f2f2f2;
+  }
+  
+  .hero h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Styles for the featured products section */
+  .featured-products {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px 100px;
+    background-color: #f5f5f5;
+  }
+  
+  .featured-products h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 31px;
+  }
+  
+  .product {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .product img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .bttn {
+    border: 0px;
+    background-color: #2b2626;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 2px;
+    cursor: pointer;
+  }
+  
+
+  .bttn:hover {
+    background-color: #000000
+  }
+  
+ 
+   /* Add advanced hover effect to nav buttons */
+   .nav-button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fffefe;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+
+  .nav-button:hover {
+    color: rgb(0, 0, 0);
+  }
+
+  /* Add styles for the footer section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  footer h3{
+    font-size: 18px;
+  }
+
+  footer p{
+    font-size: 15px;
+  }
+
+  .footer-container {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .shop-name {
+    font-family: "Playfair Display", serif;
+    font-size: 20px; /* Example: 24 pixels font size */
+    font-weight: bold; /* Example: bold font weight */
+    color: #ffffff; /* Example: dark gray color */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    
+  }
+  
+  .contact-info,
+  .shop-info,
+  .social-media {
+    margin: 1px;
+    color: rgb(255, 255, 255);
+  }
+
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icons li {
+    margin: 5px;
+  }
+
+  .social-icons li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Center the shop name and address */
+  .shop-info {
+    text-align: center;
+  }
+
+  body.abts{
+    background-color: #f5f5f5;
+  }
+     /* Additional CSS specific to the about page */
+     .about {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #f2f2f2;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+  }
+
+  .about h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+      text-align: center;
+  }
+
+  .about p {
+      font-size: 14px;
+      line-height: 1.5;
+      text-align: justify;
+  }
+
+  .contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 4px;
+    background-color: #f2f2f2;
+    border-radius: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .success-message {
+    text-align: center;
+    margin-bottom: 30px;
+    color: green;
+  }
+
+  .hide {
+    display: none;
+  }
+
+
+
+      .message-box {
+        width: 100%;
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 4px;
+    }
+    
+    .message-box textarea {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+        padding: 10px;
+        resize: vertical;
+    }
+    
+    .message-box button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .message-box button:hover {
+        background-color: #45a049;
+    }
+
+
+  }
+  
+  
